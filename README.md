@@ -1,0 +1,2 @@
+# dotfiles
+only dots allowed
