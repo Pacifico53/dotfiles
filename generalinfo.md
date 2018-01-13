@@ -14,4 +14,6 @@ KEYBOARD SHORTCUTS :
             <Alt-Space>       Window options
 MOUSE : 
         Accelaration = 2.0
-        Sensitivity = 4 px 
+        Sensitivity = 4 px
+
+CLONE VIM-DEUS AND VIM-JAVACOMPLETE2 TO SOURCES-NON-FORKED
