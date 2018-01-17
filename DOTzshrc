@@ -88,11 +88,12 @@ alias ohmyzsh="subl -n ~/.oh-my-zsh"
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! INITIAL COMMANDS
 
+#neofetch
 neofetch
 echo "Hoje é $(date "+%A, %d de %B.")"
 echo "$(date "+%H:%M")"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-fortune
+fortune -s
 
 source ~/.nvm/nvm.sh
 
@@ -140,3 +141,6 @@ alias reddit='firefox https://www.reddit.com/r/all'
 alias zshrc='subl -n ~/.zshrc'
 alias v='vim'
 alias qqq='exit'
+
+# Tira o keybind ctrl-s que parava o terminal
+stty stop undef
