@@ -5,7 +5,7 @@
 		"/home/pacifico/.oh-my-zsh"
 	],
 	"last_version": 3143,
-	"last_window_id": 28,
+	"last_window_id": 30,
 	"log_indexing": false,
 	"settings":
 	{
@@ -344,7 +344,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,362,116,1002,596,1366,768",
+			"position": "0,0,0,0,0,456,0,936,715,1366,768",
 			"project": "",
 			"replace":
 			{
