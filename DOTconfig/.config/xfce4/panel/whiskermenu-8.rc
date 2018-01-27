@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-web-browser.desktop,exo-mail-reader.desktop,pamac-manager.desktop
-recent=cmake-gui.desktop,xfce-keyboard-settings.desktop,xfce-session-settings.desktop,exo-preferred-applications.desktop,xfce4-power-manager-settings.desktop,qt5ct.desktop,msm_notifier_settings.desktop,xfce4-settings-editor.desktop,lightdm-gtk-greeter-settings.desktop,htop.desktop
+recent=unetbootin.desktop,gparted.desktop,xfce4-screenshooter.desktop,cmake-gui.desktop,xfce-keyboard-settings.desktop,xfce-session-settings.desktop,exo-preferred-applications.desktop,xfce4-power-manager-settings.desktop,qt5ct.desktop,msm_notifier_settings.desktop
 button-title=Applications
 button-icon=/usr/share/icons/whiskermenu-manjaro.svg
 button-single-row=false
