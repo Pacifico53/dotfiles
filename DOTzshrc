@@ -7,7 +7,8 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
- ZSH_THEME="afowler"
+# ZSH_THEME="afowler"
+ZSH_THEME="half-life"
 # ZSH_THEME="jreese"
 # ZSH_THEME="norm"
 
@@ -93,7 +94,7 @@ neofetch
 echo "Hoje é $(date "+%A, %d de %B.")"
 echo "$(date "+%H:%M")"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-fortune -s
+fortune -s | lolcat
 
 source ~/.nvm/nvm.sh
 
@@ -138,9 +139,10 @@ function sreddit () {
 
 alias reddit='firefox https://www.reddit.com/r/all'
 
-alias zshrc='subl -n ~/.zshrc'
+alias zshrc='vim ~/.zshrc'
 alias v='vim'
 alias qqq='exit'
 
 # Tira o keybind ctrl-s que parava o terminal
 stty stop undef
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
