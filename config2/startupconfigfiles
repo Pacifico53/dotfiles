@@ -1,0 +1,54 @@
+kcminputrc Mouse cursorTheme 'breeze_cursors'
+/home/pacifico/.config/kcminputrc
+/etc/xdg/kcminputrc
+!/home/pacifico/.local/share/config/kcminputrc
+!/home/pacifico/.local/share/flatpak/exports/share/config/kcminputrc
+!/var/lib/flatpak/exports/share/config/kcminputrc
+!/usr/local/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+kcminputrc Mouse cursorSize ''
+/home/pacifico/.config/kcminputrc
+/etc/xdg/kcminputrc
+!/home/pacifico/.local/share/config/kcminputrc
+!/home/pacifico/.local/share/flatpak/exports/share/config/kcminputrc
+!/var/lib/flatpak/exports/share/config/kcminputrc
+!/usr/local/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+ksplashrc KSplash Theme Breeze
+/home/pacifico/.config/ksplashrc
+!/etc/xdg/ksplashrc
+!/home/pacifico/.local/share/config/ksplashrc
+!/home/pacifico/.local/share/flatpak/exports/share/config/ksplashrc
+!/var/lib/flatpak/exports/share/config/ksplashrc
+!/usr/local/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+ksplashrc KSplash Engine KSplashQML
+/home/pacifico/.config/ksplashrc
+!/etc/xdg/ksplashrc
+!/home/pacifico/.local/share/config/ksplashrc
+!/home/pacifico/.local/share/flatpak/exports/share/config/ksplashrc
+!/var/lib/flatpak/exports/share/config/ksplashrc
+!/usr/local/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+kdeglobals KScreen ScreenScaleFactors ''
+/home/pacifico/.config/kdeglobals
+/etc/xdg/kdeglobals
+!/home/pacifico/.local/share/config/kdeglobals
+!/home/pacifico/.local/share/flatpak/exports/share/config/kdeglobals
+!/var/lib/flatpak/exports/share/config/kdeglobals
+!/usr/local/share/config/kdeglobals
+!/usr/share/config/kdeglobals
+*
+kcmfonts General forceFontDPI 0
+/home/pacifico/.config/kcmfonts
+!/etc/xdg/kcmfonts
+!/home/pacifico/.local/share/config/kcmfonts
+!/home/pacifico/.local/share/flatpak/exports/share/config/kcmfonts
+!/var/lib/flatpak/exports/share/config/kcmfonts
+!/usr/local/share/config/kcmfonts
+!/usr/share/config/kcmfonts
+*
