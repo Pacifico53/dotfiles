@@ -1,8 +1,0 @@
-[$Version]
-update_info=kscreenlocker.upd:0.1-autolock
-
-[Greeter]
-Theme=org.numixproject.kde
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=file:///home/pacifico/.local/share/wallpapers/126360-p6110227-pulvar1920.jpg
