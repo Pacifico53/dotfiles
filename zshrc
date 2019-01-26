@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/pacifico/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -82,21 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-alias zshconfig="subl -n ~/.zshrc"
-alias ohmyzsh="subl -n ~/.oh-my-zsh"
 
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! INITIAL COMMANDS
-
-#neofetch
-neofetch
-echo "Hoje é $(date "+%A, %d de %B.")"
-echo "$(date "+%H:%M")"
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-fortune -s | lolcat
-
-source ~/.nvm/nvm.sh
 
 alias ls='ls --color=auto'
 alias pacup="sudo pacman -Syu"  #update packages de pacman
@@ -104,7 +90,7 @@ alias aup="yaourt -Syu --aur"   #update packages de yaourt
 alias ..='cd ..'
 alias c='clear'
 alias ll='ls -la'			## Use a long listing format ##
-alias reterm="terminator && exit"
+alias reterm="termite && exit"
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
@@ -140,8 +126,14 @@ function sreddit () {
 alias reddit='firefox https://www.reddit.com/r/all'
 
 alias zshrc='vim ~/.zshrc'
+alias ohmyzsh='vim ~/.oh-my-zsh'
+
 alias v='vim'
 alias qqq='exit'
+
+function weather() {
+  curl 'wttr.in/~'${1:-Braga}'+'$2 ;
+}
 
 # Tira o keybind ctrl-s que parava o terminal
 stty stop undef
